@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang ="es">
+	<head>
+		<title>Hoja de Vida</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Cristyan Vergara Pineda">
+		<meta name="keywords" content="cristyan vergara, nextu, next university, curriculum vitae">
+		<meta name="description" content="Trabajo final modulo 1 de la Curso de Diseño Web">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+            div
+			{
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			#tbEdu, th
+			{
+				border: 1px solid black;
+				height: 25px;
+			}
+			th
+			{
+				background-color: lightgray;
+			}
+			#tbEdu > tbody > tr > td
+			{
+				border: 1px solid black;
+				height: 25px;
+				min-width: 150px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			.titulo, .fecha
+			{
+				text-align: center;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<header>
+		<div style="background-color: #a39b8d;">
+			<h1>Curriculum Vitae</h1>
+			<h2>Cristyan Vergara Pineda</h2>
+		</div>
+		<div>
+			<img src="./src/img/FotoJPG.jpg" alt="Foto CV" title="Foto CV">
+		</div>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="index.html">CV</a></li>
+					<li><a href="educacion.html">Educacion</a></li>
+					<li><a href="experiencia.html">Experiencia</a></li>
+				</ul>
+			</nav>
+		</div>
+		</header>
+		
+		<section>
+			<div style="background-color: #a39b8d;">
+				<h2><svg width="15px" height="15px">
+			    <image xlink:href="./src/img/LogoSVG.svg" width="100%" height="100%"></image>
+			</svg> Educacion</h2>
+            </div>
+            <div>
+				<table id="tbEdu">
+					<thead>
+						<tr>
+							<th class="titulo">Año de Inicio</th>
+							<th class="titulo">Año de Finalizacion</th>
+							<th class="titulo">Institucion</th>
+							<th class="titulo">Lugar</th>
+							<th class="titulo">Titulo Obtenido</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="fecha">1991</td>
+							<td class="fecha">1997</td>
+							<td>COLEGIO LA SALLE DE PEREIRA</td>
+							<td>PEREIRA</td>
+							<td>BASICA PRIMARIA</td>
+						</tr>
+						<tr>
+							<td class="fecha">1998</td>
+							<td class="fecha">2004</td>
+							<td>COLEGIO OFICIAL EL JARDIN</td>
+							<td>PEREIRA</td>
+							<td>BACHILLERATO ACADEMICO</td>
+						</tr>
+						<tr>
+							<td class="fecha">2006</td>
+							<td class="fecha">2009</td>
+							<td>AMERICAN BUSINESS SCHOOL</td>
+							<td>PEREIRA</td>
+							<td>ADMINISTRACION EN SISTEMAS</td>
+						</tr>
+						<tr>
+							<td class="fecha">2008</td>
+							<td class="fecha">2009</td>
+							<td>AMERICAN BUSINESS SCHOOL</td>
+							<td>PEREIRA</td>
+							<td>TRILOGIA EN DISEÑO GRAFICO</td>
+						</tr>
+						<tr>
+							<td class="fecha">2008</td>
+							<td class="fecha">2009</td>
+							<td>UNIVERSIDAD TECNOLOGICA DE PEREIRA</td>
+							<td>PEREIRA</td>
+							<td>DIPLOMADO EN REDES CCNA</td>
+						</tr>
+						<tr>
+							<td class="fecha">2012</td>
+							<td class="fecha">2012</td>
+							<td>SENA VIRTUAL</td>
+							<td>PEREIRA</td>
+							<td>USO DE EXCEL Y ACCES PARA EL DESARROLLO DE APLICACIONES ADMINISTRATIVAS EMPRESARIALES</td>
+						</tr>
+						<tr>
+							<td class="fecha">2012</td>
+							<td class="fecha">2012</td>
+							<td>SENA VIRTUAL</td>
+							<td>VIRTUAL</td>
+							<td>REDES Y SEGURIDAD</td>
+						</tr>
+						<tr>
+							<td class="fecha">2016</td>
+							<td class="fecha">2016</td>
+							<td>UDEMY</td>
+							<td>VIRTUAL</td>
+							<td>PROGRAMAR PARA EMPRENDEDORES HTML y CSS</td>
+						</tr>
+						<tr>
+							<td class="fecha">2016</td>
+							<td class="fecha">2016</td>
+							<td>UDEMY</td>
+							<td>VIRTUAL</td>
+							<td>WEBHOSTING PARA EMPRENDEDORES</td>
+						</tr>
+						<tr>
+							<td class="fecha">2016</td>
+							<td class="fecha">2017</td>
+							<td>SENA VIRTUAL</td>
+							<td>VIRTUAL</td>
+							<td>PROGRAMACION EN JAVA</td>
+						</tr>
+						<tr>
+							<td class="fecha">2017</td>
+							<td class="fecha">2017</td>
+							<td>SENA VIRTUAL</td>
+							<td>VIRTUAL</td>
+							<td>PROGRAMACION EN EL LENGUAJE C++ </td>
+						</tr>
+						<tr>
+							<td class="fecha">2013</td>
+							<td class="fecha"></td>
+							<td>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA</td>
+							<td>NO PRESENCIAL, A DISTANCIA</td>
+							<td>INGENIERIA DE SISTEMAS</td>
+						</tr>
+						
+					</tbody>
+					<tfoot>
+						
+					</tfoot>
+				</table>
+			</div>
+			<br><br>
+			<div style="background-color: #a39b8d;">
+				<h2><svg width="15px" height="15px">
+			    <image xlink:href="./src/img/LogoSVG.svg" width="100%" height="100%"></image>
+			</svg> Agregar Estudios</h2>
+            </div>
+            <div>
+				<form action="#" method="POST">
+					<label for="fecha_ini">Fecha de Inicio</label>
+					<br>
+					<select name="fecha_ini" id="fecha_ini">
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+					</select>
+					<br>
+					<label for="fecha_fin">Fecha de Finalizacion</label>
+					<br>
+					<select name="fecha_fin" id="fecha_fin">
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+					</select>
+					<br>
+					<label for="insti">Intitucion</label>
+					<br>
+					<input type="text" id="insti">
+					<br>
+					<label for="lug">Lugar</label>
+					<br>
+					<input type="text" id="lug">
+					<br>
+					<label for="titu">Titulo Obtenido</label>
+					<br>
+					<input type="text" id="titu">
+					<br><br><br>
+					<input type="submit">
+				</form>
+			</div>
+		</section>
+		
+		<footer>
+		<div>
+			<h6>Todos los derechos reservados - Cristyan Vergara Pineda ©</h6>
+		</div>
+		</footer>
+	</body>
+</html>

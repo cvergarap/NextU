@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura idf="0001" fecha="2018-08-30">
+    <cliente>
+        <nombres>NombreCliente</nombres>
+        <apellidos>ApellidosCliente</apellidos>
+        <telefono>TelefonoCliente</telefono>
+    </cliente>
+    <articulos>
+        <articulo id="0001">
+            <descripcion>Descripcion del articulo</descripcion>
+            <vru>valor unitario</vru>
+            <cant>cantidad</cant>
+            <vrt>valor total</vrt>
+        </articulo>
+    </articulos>
+    <precio-total>
+       <precio-venta>precio de venta al publico</precio-venta>
+    </precio-total>
+</factura>

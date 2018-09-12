@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- Edit this and the preview will update automatically. -->
+<svg xmlns='http://www.w3.org/2000/svg' width='5' height='5'>
+<rect width='5' height='5' fill='#fff'/>
+<rect width='1' height='1' fill='#ccc'/>
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- https://github.com/progers/Patterns-Gallery -->
+<!-- Do not edit below, just used for the preview. -->
+<div id="code">
+[base64]
+</div>
+
+<style>
+#code {
+  border: 1px solid #000;
+  background-color: rgba(255,255,255,.9);
+  font-family: monospace;
+  margin: 1em;
+  padding: .5em;
+  word-break: break-all;
+}
+svg { display: none; }
+html { width: 100%; height: 100%; }
+</style>
+
+<script>
+// Encode an SVG element as a base64 data uri.
+function svgToBase64Image(svgElement) {
+  var div = document.createElement('div');
+  div.appendChild(svgElement.cloneNode(true));
+  var b64 = window.btoa(div.innerHTML);
+  return 'data:image/svg+xml;base64,' + b64;
+}
+var svgs = document.getElementsByTagName('svg');
+var urls = [];
+for (var i = 0; i < svgs.length; i++)
+  urls.push('url("' + svgToBase64Image(svgs[i]) + '")');
+var url = urls.join(',');
+var msg = 'Base64 CSS image (for cross-browser support):' +
+          '<br><br>background: ' + url + ';';
+document.getElementById('code').innerHTML = msg;
+document.body.style.background = url;
+</script>
