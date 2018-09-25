@@ -1,0 +1,29 @@
+
+table, th, td
+{
+	border: 1px solid black;
+	padding: 5px;
+	border-collapse: collapse;
+}
+th, td
+{
+	width: 200px;
+	height: 40px;
+}
+th
+{
+	text-align: center;
+	vertical-align: middle;
+}
+tbody tr:nth-child(odd)
+{
+	background-color: darkturquoise
+}
+tbody tr:nth-child(even)
+{
+	background-color: deepskyblue;
+}
+tbody tr:hover
+{
+	background-color: lightgrey;
+}

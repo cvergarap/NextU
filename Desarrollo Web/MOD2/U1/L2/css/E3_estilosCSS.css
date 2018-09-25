@@ -1,0 +1,13 @@
+body
+{
+    color:red !Important;
+    color:white;
+}
+p
+{
+    color:blue;
+}
+body, p
+{
+    color:green;
+}

@@ -1,0 +1,33 @@
+*
+            {
+                margin: 0px;
+                padding: 0px;
+                font-family: sans-serif;
+                font-size: 20px;
+            }
+            body
+            {
+                background-color: black;
+            }
+            img
+            {
+                background-color: white;
+            }
+            header>*
+            {
+                font-family:serif;
+                font-size: 30px;
+                color:white;
+            }
+            section>*
+            {
+                font-family: sans-serif;
+                font-size: 18px;
+                color:white;
+            }
+            footer>*
+            {
+                font-family: monospace;
+                font-size: 15px;
+                color:white;
+            }

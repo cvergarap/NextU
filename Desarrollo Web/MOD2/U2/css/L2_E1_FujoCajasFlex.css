@@ -1,0 +1,41 @@
+/*===============================================================================*/
+div[id^="caja"]
+{
+    min-width: 100px;
+    flex: 8 1 10%
+}
+#caja1
+{
+    order: 1;
+}
+#caja2
+{
+    order: 3;
+}
+#caja3
+{
+    order: 5;
+}
+#caja4
+{
+    order: 7;
+}
+#caja5
+{
+    order: 2;
+}
+#caja6
+{
+    order: 4;
+}
+#caja7
+{
+    order: 6;
+}
+
+
+#principal
+{
+    display: flex;
+    flex-flow: row wrap;
+}

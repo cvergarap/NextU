@@ -1,0 +1,48 @@
+body
+{
+	height: 800px;
+	margin: 10px;
+	padding: 2px;
+}
+#imgLogo
+{
+	float: left;
+	margin: auto 15px;
+}
+#menuLat
+{
+	float: left;
+	width: 200px;
+	height: 100%;
+	margin 0px;
+	padding 0px;
+}
+#elementosMenu
+{
+	list-style: none;
+}
+#principal
+{
+	margin-left: 200px;
+}
+.contenido
+{
+	margin: 5px 10px 20px 10px;
+}
+#inicio
+{
+	text-align: justify;
+}
+#foto
+{
+	margin: 10px;
+	float: right
+}
+#ubicacion
+{
+	text-align: justify;
+}
+#galeria
+{
+	
+}

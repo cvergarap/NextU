@@ -1,0 +1,31 @@
+@fontface
+{
+    font-family: "LatoRegular";
+    src: url(../src/font/Lato-Regular.ttf);
+}
+body
+{
+    font-family: "lora", sans-serif;
+}
+header
+{
+    font-family: "LatoRegular";
+}
+nav
+{
+    font-style: italic;
+}
+header>div>h1
+{
+    font-variant: small-caps
+}
+div[id^="recetasNuevas"] h1
+{
+    font: bold small-caps 28px/1 Georgia;
+	text-align: center;
+}
+div[id^="recetasNuevas"] h3
+{
+    background-color: bisque;
+	padding-left: 10px;
+}

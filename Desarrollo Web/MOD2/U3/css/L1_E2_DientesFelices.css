@@ -1,0 +1,39 @@
+body
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+header h1
+{
+	margin: 2%;
+	font-size: 1.5em;
+}
+#contenido
+{
+	margin: 2%;
+}
+footer
+{
+	border-top: 2px solid black;
+	font-size: 0.8em;
+	text-align: right;
+}
+
+
+header
+{
+    background-color: cadetblue;
+    padding: 1vh 1vw;
+    border-radius: 2vh;
+    margin-bottom: 1vh;
+}
+body
+{
+    font-size: 3vw;
+}
+footer
+{
+    padding-top: 1vw;
+    margin-top: 1vw;
+}
