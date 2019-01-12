@@ -1,0 +1,85 @@
+body
+{
+    font-family: cursive;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+div
+{
+    height: 100px;
+}
+header div
+{
+    text-align: center;
+    vertical-align: center;
+}
+article div
+{
+    text-align: justify;
+    vertical-align: center;
+}
+header
+{
+    width: 100%;
+    background-color:bisque;
+}
+section article
+{
+    width: 100%;
+}
+article div
+{
+    float: left;
+    width: 50%;
+}
+#eslogan
+{
+    width: 100%;
+    background-color:blueviolet;
+}
+#contenedor1
+{
+    background-color: burlywood;
+}
+#contenedor2
+{
+    background-color: cadetblue;
+}
+#contenedor3
+{
+    background-color: chartreuse
+}
+
+
+footer
+{
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid blue;
+    margin-top: 5px;
+    clear: both;
+    font-size: 12px;
+    text-align: right;
+}
+
+@media(max-width: 460px)
+{
+    article div
+    {
+        width: 100%;
+        height: auto;
+    }
+    #eslogan
+    {
+        padding: 10px;
+    }
+    
+}
+@media(max-width: 600px)
+{
+    body
+    {
+        width: 90%;
+        margin: auto;
+    }
+}
