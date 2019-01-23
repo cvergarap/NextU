@@ -7,30 +7,30 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/perCSS.css" type="text/css">
 	</head>
 	<body>
 	    <header>
-	        <div class="row">
+	        <div class="row" id="fl1">
 	            <div class="col-md-12">
 	                <div class="row">
-	                    <div class="col-md-3">
-                            <img class="" src="src/img/LogoPNG.png" alt="Logo" style="width:100px;">
+	                    <div class="col-4 col-md-3">
+                            <img class="imgLogo" src="src/img/LogoPNG.png" alt="Logo" style="width:100px;">
                         </div>
-                        <div class="col-md-5 offset-md-4">
+                        <div class="col-1 offset-5 col-md-4 offset-md-5">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img class="" src="src/icon/face.png" alt="Facebook" style="width:30px;">
+                                    <img class="imgRedes" src="src/icon/face.png" alt="Facebook" style="width:30px;">
                                 </div>
                                 <div class="col-md-3">
-                                    <img class="" src="src/icon/inst.png" alt="Instagram" style="width:30px;">
+                                    <img class="imgRedes" src="src/icon/inst.png" alt="Instagram" style="width:30px;">
                                 </div>
                                 <div class="col-md-3">
-                                    <img class="" src="src/icon/pint.png" alt="Pinterest" style="width:30px;">
+                                    <img class="imgRedes" src="src/icon/pint.png" alt="Pinterest" style="width:30px;">
                                 </div>
                                 <div class="col-md-3">
-                                    <img class="" src="src/icon/wp.png" alt="WhatsApp" style="width:30px;">
+                                    <img class="imgRedes" src="src/icon/wp.png" alt="WhatsApp" style="width:30px;">
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
 	            </div>
 	        </div>
 	        <div>
-	            <nav>
+	            <nav id="menuNav">
 	                <ul class="nav justify-content-center">
 	                    <li class="nav-item"><a class="nav-link" href="#">enlace</a></li>
 	                    <li class="nav-item"><a class="nav-link" href="#">enlace</a></li>
@@ -54,51 +54,160 @@
        
         <section>
 	        <div class="row">
-	            <div class="col-md-8">
-	                <div class="row">
+	            <div class="col-md-8" id="contenedorPri">
+	                <div class="row" id="contenedor">
 	                    <div class="col-md-12">
-	                       <div class="row">
-	                           <div class="col-md-8">
-                                Contenido
+	                       <div class="row" id="contenido">
+	                           <div class="col-md-8 order-1">
+                                <h3>30 seconds to Mars</h3>
+                                <p>
+                                    La banda del ganador del Oscar, Jared Leto, reveló que la inspiración del nombre del grupo salió de una tesis de un ex profesor de Harvard, quien sostuvo que “el ser humano es una curva exponencial tecnológica, a 30 segundos de Marte”. Y de esa misma forma, él define su música.
+                                </p>
                                 </div>
-                                <div class="col-md-4">
-                                    Imagen
+                                <div class="col-md-4 order-2">
+                                    <picture>
+                                        <source media="(max-width: 576px)" srcset="src/img/imagenesRESP/30STM.jpg">
+                                        <img src="src/img/imagenes/30STM.jpg" alt="Imagen" class="img-fluid img-thumbnail">
+                                    </picture>
                                 </div>
 	                       </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    cometarios
+                                    <form action="#" role="form">
+                                       <div class="from-group">
+                                          <img src="src/icon/usu.png" alt="usuario" class="img" style="width:70px">
+                                           <input type="text" placeholder="cometarios..." class="form-control">
+                                       </div>
+                                    </form>
                                 </div>
                             </div>
 	                    </div>
 	                </div>
-	                <div class="row">
+	                <div class="row" id="contenedor">
 	                    <div class="col-md-12">
-	                        <div class="row">
-	                            <div class="col-md-8">
-	                                Contenido
+	                       <div class="row" id="contenido">
+	                            <div class="col-md-8 order-2">
+	                                <h3>Fall Out Boy</h3>
+	                                <p>
+	                                    La banda se nombró inspirada en un capítulo de Los Simpson donde aparecía el Niño Fisión (Fall Out Boy), compañero del superhéroe El hombre radioactivo. Cuando el grupo intentó cambiar su nombre, la fama que ya habían logrado impidió la modificación.
+	                                </p>
 	                            </div>
-	                            <div class="col-md-4">
-	                                Imagen
+	                            <div class="col-md-4 order-1">
+                                    <picture>
+                                        <source media="(max-width:576px)" srcset="src/img/imagenesRESP/FOB.jpg">
+                                        <img src="src/img/imagenes/FOB.jpg" alt="Imagen" class="img-fluid img-thumbnail">
+                                    </picture>
+                                </div>
+	                       </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="#" role="form">
+                                       <div class="from-group">
+                                          <img src="src/icon/usu.png" alt="usuario" class="img" style="width:70px">
+                                           <input type="text" placeholder="cometarios..." class="form-control">
+                                       </div>
+                                    </form>
 	                            </div>
 	                        </div>
-	                        <div class="row">
-	                            <div class="col-md-12">
-	                                Cometarios
+	                    </div>
+	                </div>
+	                <div class="row" id="contenedor">
+	                    <div class="col-md-12">
+	                       <div class="row" id="contenido">
+	                            <div class="col-md-8 order-1">
+	                                <h3>Green Day</h3>
+	                                <p>
+	                                    Una de las primeras canciones hacía referencia a este día: un “Green Day” era una jornada de descanso acompañada de marihuana. Al cantante Billie Joe Armstrong hizo que la idea diera origen a una canción y más tarde, se convirtier en el nombre del grupo.
+	                                </p>
+	                            </div>
+	                            <div class="col-md-4 order-2">
+                                    <picture>
+                                        <source media="(max-width:576px)" srcset="src/img/imagenesRESP/GD.jpg">
+                                        <img src="src/img/imagenes/GD.jpg" alt="Imagen" class="img-fluid img-thumbnail">
+                                    </picture>
+                                </div>
+	                       </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="#" role="form">
+                                       <div class="from-group">
+                                          <img src="src/icon/usu.png" alt="usuario" class="img" style="width:70px">
+                                           <input type="text" placeholder="cometarios..." class="form-control">
+                                       </div>
+                                    </form>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="row" id="contenedor">
+	                    <div class="col-md-12">
+	                       <div class="row" id="contenido">
+	                            <div class="col-md-8 order-2">
+	                                <h3>Coldplay</h3>
+	                                <p>
+	                                    Coldplay era la banda de otro músico, amigo de la actual banda, llamado Tim Crompton. Fue él quien extrajo el nombre de un libro de poemas para niños llamado Child’s Reflections: Cold Play. Cuando el artista decidió dejar el nombre, la banda de Chris Martin comenzó a usarlo.
+	                                </p>
+	                            </div>
+	                            <div class="col-md-4 order-1">
+                                    <picture>
+                                        <source media="(max-width:576px)" srcset="src/img/imagenesRESP/CLP.jpg">
+                                        <img src="src/img/imagenes/CLP.jpg" alt="Imagen" class="img-fluid img-thumbnail">
+                                    </picture>
+                                </div>
+	                       </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="#" role="form">
+                                       <div class="from-group">
+                                          <img src="src/icon/usu.png" alt="usuario" class="img" style="width:70px">
+                                           <input type="text" placeholder="cometarios..." class="form-control">
+                                       </div>
+                                    </form>
 	                            </div>
 	                        </div>
 	                    </div>
 	                </div>
 	            </div>
-	            <div class="col-md-4">
-	                Buscador
+	            <div class="col-md-4" id="contenidoSec">
+	                <div class="row" id="buscador">
+	                    <div class="col-10 offset-1 col-md-10 offset-md-1">
+                            <h3>Buscador</h3>
+	                        <form action="#" role="form">
+	                            <div class="form-group">
+	                                <input type="text" class="form-control" placeholder="Buscar..." name="buscador" id="buscador" style="width:100%">
+	                                <br>
+	                                <input type="submit" class="btn btn-default" value="Buscar">
+	                            </div>
+	                        </form>
+	                    </div>
+	                </div>
+	                <div class="row" id="lista">
+	                   <div class="col-md-12">
+	                       <p><a href="#">Enlace Cancion 1</a></p>
+	                       <p><a href="#">Enlace Cancion 2</a></p>
+	                       <p><a href="#">Enlace Cancion 3</a></p>
+	                       <p><a href="#">Enlace Cancion 4</a></p>
+	                       <p><a href="#">Enlace Cancion 5</a></p>
+	                       <p><a href="#">Enlace Cancion 6</a></p>
+	                       <p><a href="#">Enlace Cancion 7</a></p>
+	                       <p><a href="#">Enlace Cancion 8</a></p>
+	                       <p><a href="#">Enlace Cancion 9</a></p>
+	                       <p><a href="#">Enlace Cancion 10</a></p>
+	                       <p><a href="#">Enlace Cancion 11</a></p>
+	                       <p><a href="#">Enlace Cancion 12</a></p>
+	                   </div> 
+	                </div>
 	            </div>
 	        </div>
 	    </section>
        
        
         <footer>
-            
+            <div class="row">
+                <div class="col-8 offset-2 col-md-12 offset-md-0 text-center text-wrap">
+                    Todos los derechos reservados - Cristyan Vergara P ©
+                </div>
+            </div>
         </footer>
 	</body>
 </html>

@@ -1,0 +1,37 @@
+body
+{
+    background-color:#F2F1AB;
+}
+#fl1
+{
+    background-color: #09574B;
+    height: 120px;
+}
+#contenido
+{
+    background-color: #EEE764;
+    border-radius: 3px;
+}
+#buscador, #lista
+{
+    border: 1px solid #EEE764;
+    border-radius: 3px;
+}
+#contenedor h3
+{
+    text-align: center;
+}
+#contenedor p
+{
+    text-align: justify;
+}
+#menuNav
+{
+    margin: 4px 0px 4px 0px;
+}
+#menuNav li
+{
+    background-color: #09574B;
+    border-radius: 3px;
+    margin: 0px 4px 0px 4px;
+}
