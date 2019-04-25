@@ -33,5 +33,12 @@ body
 {
     background-color: #09574B;
     border-radius: 3px;
-    margin: 0px 4px 0px 4px;
+    margin: 0px auto 0px auto;
+}
+
+
+
+@media (max-width: 768px)
+{
+   #menuNav li { margin: 0px 20px;} 
 }
